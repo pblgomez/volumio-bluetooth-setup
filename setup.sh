@@ -4,6 +4,11 @@
 # - https://gist.github.com/oleq/24e09112b07464acbda1
 # - https://github.com/BaReinhard/Super-Simple-Raspberry-Pi-Audio-Receiver-Install
 
+# First update the repos
+#
+sudo apt-get update
+
+
 install_dependencies() {
   #TODO clean up that mess probably not half of it is necessary
   sudo apt install pulseaudio-module-bluetooth python-dbus libltdl-dev pulseaudio libtool intltool \
